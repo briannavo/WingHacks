@@ -13,10 +13,9 @@ const OtherPage = () => {
 
 const handleSubmit = async (e) => {
   e.preventDefault();
-
-  const API_KEY = process.env.GOOGLE_API_KEY;
-
-
+  
+  const API_KEY = import.meta.env.VITE_REACT_APP_GOOGLE_API_KEY;
+  console.log('key', API_KEY);
   try {
       const res = await axios.get(`https://maps.googleapis.com/maps/api/geocode/json`, {
 
@@ -33,6 +32,7 @@ const handleSubmit = async (e) => {
         setLong(location.lng);
         setError('');
       }else{
+        console.error(res)
         setError("Error: Invalid Zip Code.")
       }
 
@@ -62,7 +62,7 @@ return (
       Get Lat and Long
       </button>
 
-      {lat && long (
+      {lat && long && (
         <div className='mt-4'> 
           <p className='text-lg'>lat: {lat}</p>
           <p className='text-lg'>Long: {long}</p>
