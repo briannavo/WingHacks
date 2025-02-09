@@ -3,9 +3,11 @@ import React from 'react'
 const TipsPage = () => {
   return (
     <div>
+
     <div className='bg-[#CBC3E3] p-6 rounded-lg text-center items-center justify-center border border-e-blue-300'>
       <h1 style={{color: 'green', textAlign:'center'}} className='font-bold'>Domestic Violence Safety Tips</h1>
       <ul style={{ listStyleType: 'circle', listStylePosition: 'inside', textAlign:'center'}} className='list-disc pl-5 text-center justify-center'>
+
         <li> If you are in immediate danger, call 911</li>
         <li> If you feel tension building up, avoid area with possible weapons</li>
         <li> Know where there is a safe exit from your home</li>
@@ -16,6 +18,7 @@ const TipsPage = () => {
         <li> Keep a list of emergency contacts</li>
         <li> Know where the nearest shelter is. If you want to find one use the Near you tab to find one near you</li>
         <li> Know where the nearest hospital is</li>
+    
       </ul>
     </div>
     

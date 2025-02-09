@@ -6,6 +6,7 @@ import img2 from '../assets/1q80fy6d.png'
 const HomePage = () => {
   return (
     <div>
+
         {/* SECTION 1 */}
         <section id="section-1" className="bg-[#CBC3E3] text-white p-8 h-screen flex items-center justify-center relative">
 
@@ -115,6 +116,7 @@ const HomePage = () => {
         </section>
 
         {/* SECTION 2 */}
+
     </div>
   )
 }
