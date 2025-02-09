@@ -13,10 +13,11 @@ body {
   flex-direction: column;
   position: relative;
   width: 600px;
-  height: 300px;
+  height: auto;
+  min-height: 300px;
   background: #f1f1f1;
   margin: 100px auto 0;
-  word-break: break-all;
+  word-break: normal;
   border: 1px solid rgba(0, 0, 0, 0.274);
 }
 
@@ -83,8 +84,14 @@ button {
 }
 .content p {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .active-content {
   display: block;
+}
+
+.content ul{
+  width: 100%;
+  padding-left: 2rem;
+  margin-top: 0.5rem;
 }
