@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import OtherPage from './pages/OtherPage';
 import TipsPage from './pages/TipsPage';
 import TypesPage from './pages/TypesPage';
+import Tabs from './components/Tabs';
 
 const App = () => {
   return (

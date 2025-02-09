@@ -1,9 +1,10 @@
 import React from 'react'
+import Tabs from '../components/Tabs'
 
 const TypesPage = () => {
   return (
     <div>
-      <h1>TYPES OF ABUSE</h1>
+      <Tabs /> 
     </div>
   )
 }
