@@ -3,11 +3,15 @@ import Tabs from '../components/Tabs'
 
 const TypesPage = () => {
   return (
-    <><div style={{backgroundColor: 'lightblue', padding:'10px', textAlign:'center', fontSize:'25px'}}>
-      <h1>Remember, you are not alone. Nearly 25% of all women experience domestic violence at some point in their lives. Learn more about what abuse can look like below.</h1>
-    </div><div>
-        <Tabs />
-      </div></>
+
+
+    <div className="relative bg-cover bg-center min-h-screen " >
+      <div className='text-lg text-center mt-5 font-bold '>
+        <h1>TYPES OF ABUSE</h1>
+      </div>
+      <Tabs /> 
+    </div>
+
   )
 }
 

@@ -16,23 +16,23 @@ const App = () => {
         {/* navbar */}
         <nav className="bg-[#00022b] p-4 hover:bg-[#o855b1] transition duration-300">
           <ul className='flex justify-between w-full h-full'>
-              <li className="hover:bg-[#4fa5d8] p-3 rounded transition duration-300 font-bold">
+              <li className="hover:bg-[#4fa5d8] p-3 rounded-full transition duration-300 font-bold">
                 <Link className='text-white' to="/">Home</Link>
               </li>
 
-              <li className="hover:bg-[#4fa5d8] p-3 rounded transition duration-300 font-bold">
+              <li className="hover:bg-[#4fa5d8] p-3 rounded-full transition duration-300 font-bold">
                 <Link className='text-white' to="/other">Near You</Link>
               </li>
 
-              <li className="hover:bg-[#4fa5d8] p-3 rounded text-white transition duration-300 font-bold">
+              <li className="bg-[#4fa5d8] p-3  text-white transition duration-300 font-bold rounded-full">
                 <p>SAFE HAVEN</p>
               </li>
 
-              <li className="hover:bg-[#4fa5d8] p-3 rounded transition duration-300 font-bold">
+              <li className="hover:bg-[#4fa5d8] p-3 rounded-full transition duration-300 font-bold">
                 <Link className='text-white' to="/tips">Tips</Link>
               </li>
 
-              <li className="hover:bg-[#4fa5d8] p-3 rounded text-white transition duration-300 font-bold">
+              <li className="hover:bg-[#4fa5d8] p-3 rounded-full text-white transition duration-300 font-bold">
                 <Link className='text-white' to="/types">Types of Abuse</Link>
               </li>
           </ul>
