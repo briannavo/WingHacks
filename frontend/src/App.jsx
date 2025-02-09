@@ -13,21 +13,25 @@ const App = () => {
       <div>
 
         {/* navbar */}
-        <nav className="bg-blue-500 p-4">
-          <ul className='flex space-x-4'>
-              <li>
+        <nav className="bg-[#00022b] p-4 hover:bg-[#o855b1] transition duration-300">
+          <ul className='flex justify-between w-full h-full'>
+              <li className="hover:bg-[#4fa5d8] p-3 rounded transition duration-300 font-bold">
                 <Link className='text-white' to="/">Home</Link>
               </li>
 
-              <li>
-                <Link className='text-white' to="/other">Other</Link>
+              <li className="hover:bg-[#4fa5d8] p-3 rounded transition duration-300 font-bold">
+                <Link className='text-white' to="/other">Near You</Link>
               </li>
 
-              <li>
+              <li className="hover:bg-[#4fa5d8] p-3 rounded text-white transition duration-300 font-bold">
+                <p>SAFE HAVEN</p>
+              </li>
+
+              <li className="hover:bg-[#4fa5d8] p-3 rounded transition duration-300 font-bold">
                 <Link className='text-white' to="/tips">Tips</Link>
               </li>
 
-              <li>
+              <li className="hover:bg-[#4fa5d8] p-3 rounded text-white transition duration-300 font-bold">
                 <Link className='text-white' to="/types">Types of Abuse</Link>
               </li>
           </ul>
@@ -42,7 +46,7 @@ const App = () => {
               <Route path='/other' element={<OtherPage />}/>
               <Route path='/tips' element={<TipsPage />}/>
               <Route path='/types' element={<TypesPage />}/>
-            </Routes>
+            </Routes>``
         </div>
 
 
