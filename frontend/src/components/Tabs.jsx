@@ -10,9 +10,9 @@ function Tabs() {
 
   return (
     <div className="container">
-      <div className="bloc-tabs">
+      <div className="bloc-tabs flex">
         <button
-          className={activeTab === 1 ? "tabs active-tabs" : "tabs"}
+          className={`tabs flex-grow ${activeTab === 1 ? "tabs active-tabs" : "tabs"}`}
           onClick={() => handleTabClick(1)}
         >
           Physical
@@ -41,13 +41,13 @@ function Tabs() {
         <div className={activeTab === 1 ? "content active-content" : "content"}>
           {/* <h2>Physical Abuse</h2> */}
           <hr />
-          <p style={{ marginBottom: '0', paddingBottom: '0' }}>
+          <p  className='text-left justify-left m-0 p-0'>
             Physical abuse is the use of physical force against someone in a way that injures or endangers that person. Physical assault or battering is a crime, whether it occurs inside or outside of the family. The police have the power and authority to protect you from physical attack.
             <br />
             <br />
             You might be experiencing physical abuse if your partner has or repeatedly does any of the following abusive behaviors:
           </p>
-          <ul style={{ listStyleType: 'circle', margin: '0' }}>
+          <ul style={{ listStyleType: 'circle', margin: '0' }} className='mt-0'>
             <li>Pull your hair or punch, slap, kick, bite, choke, or smother you.</li>
             <li>Forbid or prevent you from eating or sleeping.</li>
             <li>Use weapons against you, including firearms, knives, bats, or mace.</li>
