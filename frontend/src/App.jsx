@@ -47,7 +47,7 @@ const App = () => {
               <Route path='/other' element={<OtherPage />}/>
               <Route path='/tips' element={<TipsPage />}/>
               <Route path='/types' element={<TypesPage />}/>
-            </Routes>``
+            </Routes>
         </div>
 
 
